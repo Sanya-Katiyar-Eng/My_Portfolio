@@ -1,6 +1,45 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+
+git 
+#top bar animation
+st.markdown("""
+<style>
+.top-bar {
+    transition: all 0.3s ease;
+}
+
+.top-bar:hover {
+    background-color: #003366;
+    letter-spacing: 4px;
+}
+</style>
+""", unsafe_allow_html=True)
+
+#Button animation
+st.markdown("""
+<style>
+.stButton > button {
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.stButton > button:hover {
+    transform: scale(1.05);
+    background-color: #001f3f;
+    color: white;
+}
+</style>
+""", unsafe_allow_html=True)
+
+# Typing effect with sanya katiyar
+
+
+
+
+
+
 st.set_page_config(page_title="My Portfolio")
 
 #import streamlit as st
@@ -50,6 +89,32 @@ html {
 """, unsafe_allow_html=True)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ---- Navigation Links ----
 st.markdown("""
 <div style="display:flex; gap:20px;">
@@ -59,13 +124,28 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Abiut me section........................
 
 st.markdown("""
     <style>
+    header {visibility: hidden;}
     .top-bar {
         width: 100%;
-        background-color: #001f3f;  /* 🔵 navy blue */
+        background-color: #001f3f;
         padding: 25px;
         color: white;
         text-align: center;
@@ -86,7 +166,9 @@ st.markdown("""
 
     <div class="top-bar">
         Sanya Katiyar
-    </div>""",unsafe_allow_html=True)
+    </div>
+""", unsafe_allow_html=True)
+
 
 # ---- Columns Layout ----
 col1, col2 = st.columns([1, 2])
