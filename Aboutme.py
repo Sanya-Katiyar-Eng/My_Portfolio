@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-git 
 #top bar animation
 st.markdown("""
 <style>
@@ -33,7 +32,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Typing effect with sanya katiyar
 
 
 
